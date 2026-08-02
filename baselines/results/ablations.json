@@ -1,0 +1,20 @@
+{
+ "doc_type": {
+  "10-K": 1048,
+  "10-Q": 137
+ },
+ "reasoning_type": {
+  "Qualitative": 809,
+  "Quantitative": 376
+ },
+ "passage_type": {
+  "Single-Passage": 409,
+  "Multi-Passage": 304,
+  "Two-Passage": 472
+ },
+ "difficulty": {
+  "Easy": 363,
+  "Medium": 484,
+  "Hard": 338
+ }
+}

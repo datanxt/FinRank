@@ -1,0 +1,123 @@
+{
+ "records": 1185,
+ "tickers": [
+  "ABBV",
+  "AMGN",
+  "COP",
+  "CTRA",
+  "CVX",
+  "DVN",
+  "EOG",
+  "EPD",
+  "ET",
+  "F",
+  "GM",
+  "JNJ",
+  "KMI",
+  "LLY",
+  "LNG",
+  "MPC",
+  "MRK",
+  "MRNA",
+  "PFE",
+  "TSLA",
+  "WMB",
+  "XOM"
+ ],
+ "n_tickers": 22,
+ "total_hard_negatives": 6021,
+ "removed_same_record_hns": 12,
+ "corpus_raw_exact_dedup": 5230,
+ "sector": {
+  "Pharmaceuticals": 499,
+  "Oil & Gas": 438,
+  "Automotive": 248
+ },
+ "topic": {
+  "Accounting": 158,
+  "Company Overview": 153,
+  "Financials": 152,
+  "Risk": 150,
+  "Legal": 146,
+  "Shareholder Return": 143,
+  "Footnotes": 142,
+  "Governance": 141
+ },
+ "difficulty": {
+  "Medium": 484,
+  "Easy": 363,
+  "Hard": 338
+ },
+ "reasoning": {
+  "Qualitative": 809,
+  "Quantitative": 376
+ },
+ "passage_type": {
+  "Two-Passage": 472,
+  "Single-Passage": 409,
+  "Multi-Passage": 304
+ },
+ "doc_type": {
+  "10-K": 1048,
+  "10-Q": 137
+ },
+ "year": {
+  "2025": 889,
+  "2024": 296
+ },
+ "ct_difficulty_reasoning": {
+  "Easy | Qualitative": 229,
+  "Easy | Quantitative": 134,
+  "Hard | Qualitative": 232,
+  "Hard | Quantitative": 106,
+  "Medium | Qualitative": 348,
+  "Medium | Quantitative": 136
+ },
+ "ct_ptype_reasoning": {
+  "Multi-Passage | Qualitative": 211,
+  "Multi-Passage | Quantitative": 93,
+  "Single-Passage | Qualitative": 276,
+  "Single-Passage | Quantitative": 133,
+  "Two-Passage | Qualitative": 322,
+  "Two-Passage | Quantitative": 150
+ },
+ "ct_industry_doctype": {
+  "Automotive | 10-K": 248,
+  "Oil & Gas | 10-K": 301,
+  "Oil & Gas | 10-Q": 137,
+  "Pharmaceuticals | 10-K": 499
+ },
+ "ct_year_doctype": {
+  "2024 | 10-K": 283,
+  "2024 | 10-Q": 13,
+  "2025 | 10-K": 765,
+  "2025 | 10-Q": 124
+ },
+ "ct_industry_topic": {
+  "Automotive | Accounting": 35,
+  "Automotive | Company Overview": 33,
+  "Automotive | Financials": 32,
+  "Automotive | Footnotes": 23,
+  "Automotive | Governance": 27,
+  "Automotive | Legal": 30,
+  "Automotive | Risk": 36,
+  "Automotive | Shareholder Return": 32,
+  "Oil & Gas | Accounting": 60,
+  "Oil & Gas | Company Overview": 55,
+  "Oil & Gas | Financials": 53,
+  "Oil & Gas | Footnotes": 57,
+  "Oil & Gas | Governance": 55,
+  "Oil & Gas | Legal": 55,
+  "Oil & Gas | Risk": 51,
+  "Oil & Gas | Shareholder Return": 52,
+  "Pharmaceuticals | Accounting": 63,
+  "Pharmaceuticals | Company Overview": 65,
+  "Pharmaceuticals | Financials": 67,
+  "Pharmaceuticals | Footnotes": 62,
+  "Pharmaceuticals | Governance": 59,
+  "Pharmaceuticals | Legal": 61,
+  "Pharmaceuticals | Risk": 63,
+  "Pharmaceuticals | Shareholder Return": 59
+ },
+ "qid_label_mismatches": 56
+}
